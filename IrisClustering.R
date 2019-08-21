@@ -73,7 +73,7 @@ fviz_cluster(iris_clusters, data = data_1) + ggtitle(" Clusters with labels")
 final_dataset <- data %>% 
   mutate(cluster = iris_clusters$cluster)
 
-# this kmeans alogirthm incorrectly classified 6 flowers out of 150
+# this kmeans algorithm incorrectly classified 6 flowers out of 150
 # 96%  accuracy 
 
 

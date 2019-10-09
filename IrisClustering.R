@@ -5,7 +5,6 @@ title: "Iris Cluster Analysis"
 library(readr)
 library(cluster)
 library(factoextra)
-library(tidyverse)
 library(dplyr)
 
 #import Iris dataset 
